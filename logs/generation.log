@@ -1,0 +1,135 @@
+[pass 1/5] 11,991 pending (9/12,000 done)
+  100/11,991 ok=94 bad=6 1.84/s eta=107m calls=100 fail=0 tok_in=138,488 tok_out=68,834 cost=$0.0193
+  200/11,991 ok=192 bad=8 2.04/s eta=97m calls=200 fail=0 tok_in=274,346 tok_out=138,262 cost=$0.0386
+  300/11,991 ok=288 bad=12 2.09/s eta=93m calls=300 fail=0 tok_in=412,449 tok_out=210,328 cost=$0.0583
+  400/11,991 ok=386 bad=14 2.13/s eta=91m calls=400 fail=0 tok_in=552,800 tok_out=280,700 cost=$0.0780
+  500/11,991 ok=483 bad=17 2.15/s eta=89m calls=500 fail=0 tok_in=690,806 tok_out=352,025 cost=$0.0976
+  600/11,991 ok=577 bad=23 2.15/s eta=88m calls=600 fail=0 tok_in=828,662 tok_out=425,586 cost=$0.1176
+  700/11,991 ok=675 bad=25 2.17/s eta=87m calls=700 fail=0 tok_in=962,610 tok_out=496,315 cost=$0.1369
+  800/11,991 ok=769 bad=31 2.17/s eta=86m calls=800 fail=0 tok_in=1,100,715 tok_out=570,113 cost=$0.1569
+  900/11,991 ok=863 bad=37 2.18/s eta=85m calls=900 fail=0 tok_in=1,238,186 tok_out=641,180 cost=$0.1764
+  1,000/11,991 ok=955 bad=45 2.10/s eta=87m calls=1000 fail=0 tok_in=1,376,729 tok_out=713,819 cost=$0.1963
+  1,100/11,991 ok=1,053 bad=47 2.11/s eta=86m calls=1100 fail=0 tok_in=1,513,692 tok_out=784,009 cost=$0.2157
+  1,200/11,991 ok=1,151 bad=49 2.12/s eta=85m calls=1200 fail=0 tok_in=1,648,955 tok_out=857,589 cost=$0.2355
+  1,300/11,991 ok=1,247 bad=53 2.11/s eta=84m calls=1300 fail=0 tok_in=1,784,851 tok_out=931,363 cost=$0.2553
+  1,400/11,991 ok=1,342 bad=58 2.10/s eta=84m calls=1400 fail=0 tok_in=1,923,883 tok_out=1,005,522 cost=$0.2754
+  1,500/11,991 ok=1,441 bad=59 2.11/s eta=83m calls=1500 fail=0 tok_in=2,057,828 tok_out=1,075,714 cost=$0.2946
+  1,600/11,991 ok=1,535 bad=65 2.12/s eta=82m calls=1600 fail=0 tok_in=2,193,761 tok_out=1,146,096 cost=$0.3140
+  1,700/11,991 ok=1,630 bad=70 2.13/s eta=81m calls=1700 fail=0 tok_in=2,333,021 tok_out=1,217,105 cost=$0.3337
+  1,800/11,991 ok=1,725 bad=75 2.12/s eta=80m calls=1800 fail=0 tok_in=2,470,174 tok_out=1,287,455 cost=$0.3532
+  1,900/11,991 ok=1,820 bad=80 2.13/s eta=79m calls=1900 fail=0 tok_in=2,610,188 tok_out=1,360,175 cost=$0.3731
+  2,000/11,991 ok=1,916 bad=84 2.13/s eta=78m calls=2000 fail=0 tok_in=2,748,380 tok_out=1,432,432 cost=$0.3929
+  2,100/11,991 ok=2,014 bad=86 2.13/s eta=77m calls=2100 fail=0 tok_in=2,886,095 tok_out=1,502,376 cost=$0.4124
+  2,200/11,991 ok=2,108 bad=92 2.13/s eta=76m calls=2200 fail=0 tok_in=3,029,130 tok_out=1,575,246 cost=$0.4326
+  2,300/11,991 ok=2,206 bad=94 2.14/s eta=76m calls=2300 fail=0 tok_in=3,167,675 tok_out=1,645,848 cost=$0.4522
+  2,400/11,991 ok=2,301 bad=99 2.14/s eta=75m calls=2400 fail=0 tok_in=3,306,702 tok_out=1,720,784 cost=$0.4724
+  2,500/11,991 ok=2,400 bad=100 2.14/s eta=74m calls=2500 fail=0 tok_in=3,447,798 tok_out=1,796,130 cost=$0.4928
+  2,600/11,991 ok=2,499 bad=101 2.15/s eta=73m calls=2600 fail=0 tok_in=3,586,185 tok_out=1,867,660 cost=$0.5125
+  2,700/11,991 ok=2,597 bad=103 2.16/s eta=72m calls=2700 fail=0 tok_in=3,723,274 tok_out=1,936,309 cost=$0.5317
+  2,800/11,991 ok=2,693 bad=107 2.16/s eta=71m calls=2800 fail=0 tok_in=3,865,431 tok_out=2,010,256 cost=$0.5520
+  2,900/11,991 ok=2,790 bad=110 2.16/s eta=70m calls=2900 fail=0 tok_in=3,999,686 tok_out=2,081,182 cost=$0.5713
+  3,000/11,991 ok=2,881 bad=119 2.17/s eta=69m calls=3000 fail=0 tok_in=4,137,425 tok_out=2,151,303 cost=$0.5908
+  3,100/11,991 ok=2,974 bad=126 2.17/s eta=68m calls=3100 fail=0 tok_in=4,278,464 tok_out=2,226,057 cost=$0.6111
+  3,200/11,991 ok=3,072 bad=128 2.16/s eta=68m calls=3200 fail=0 tok_in=4,416,116 tok_out=2,296,790 cost=$0.6307
+  3,300/11,991 ok=3,169 bad=131 2.15/s eta=67m calls=3300 fail=0 tok_in=4,553,262 tok_out=2,368,170 cost=$0.6503
+  3,400/11,991 ok=3,268 bad=132 2.15/s eta=66m calls=3400 fail=0 tok_in=4,690,056 tok_out=2,440,027 cost=$0.6699
+  3,500/11,991 ok=3,365 bad=135 2.16/s eta=66m calls=3500 fail=0 tok_in=4,825,541 tok_out=2,511,401 cost=$0.6894
+  3,600/11,991 ok=3,462 bad=138 2.16/s eta=65m calls=3600 fail=0 tok_in=4,962,773 tok_out=2,580,721 cost=$0.7087
+  3,700/11,991 ok=3,558 bad=142 2.16/s eta=64m calls=3700 fail=0 tok_in=5,098,876 tok_out=2,650,836 cost=$0.7280
+  3,800/11,991 ok=3,654 bad=146 2.17/s eta=63m calls=3800 fail=0 tok_in=5,234,673 tok_out=2,722,632 cost=$0.7476
+  3,900/11,991 ok=3,753 bad=147 2.16/s eta=62m calls=3900 fail=0 tok_in=5,370,332 tok_out=2,793,002 cost=$0.7669
+  4,000/11,991 ok=3,851 bad=149 2.16/s eta=62m calls=4000 fail=0 tok_in=5,509,925 tok_out=2,865,634 cost=$0.7869
+  4,100/11,991 ok=3,945 bad=155 2.16/s eta=61m calls=4100 fail=0 tok_in=5,649,371 tok_out=2,936,858 cost=$0.8066
+  4,200/11,991 ok=4,043 bad=157 2.15/s eta=60m calls=4200 fail=0 tok_in=5,788,662 tok_out=3,005,156 cost=$0.8259
+  4,300/11,991 ok=4,136 bad=164 2.14/s eta=60m calls=4300 fail=0 tok_in=5,926,238 tok_out=3,079,827 cost=$0.8460
+  4,400/11,991 ok=4,233 bad=167 2.13/s eta=60m calls=4400 fail=0 tok_in=6,065,609 tok_out=3,148,021 cost=$0.8653
+  4,500/11,991 ok=4,331 bad=169 2.12/s eta=59m calls=4500 fail=0 tok_in=6,203,116 tok_out=3,224,867 cost=$0.8857
+  4,600/11,991 ok=4,429 bad=171 2.12/s eta=58m calls=4600 fail=0 tok_in=6,340,213 tok_out=3,295,827 cost=$0.9052
+  4,700/11,991 ok=4,523 bad=177 2.13/s eta=57m calls=4700 fail=0 tok_in=6,482,860 tok_out=3,365,431 cost=$0.9250
+  4,800/11,991 ok=4,619 bad=181 2.13/s eta=56m calls=4800 fail=0 tok_in=6,622,867 tok_out=3,437,769 cost=$0.9449
+  4,900/11,991 ok=4,713 bad=187 2.12/s eta=56m calls=4900 fail=0 tok_in=6,759,988 tok_out=3,510,333 cost=$0.9646
+  5,000/11,991 ok=4,807 bad=193 2.10/s eta=55m calls=5000 fail=0 tok_in=6,892,885 tok_out=3,583,875 cost=$0.9842
+  5,100/11,991 ok=4,904 bad=196 2.07/s eta=55m calls=5100 fail=0 tok_in=7,030,185 tok_out=3,652,036 cost=$1.0034
+  5,200/11,991 ok=5,002 bad=198 2.07/s eta=55m calls=5200 fail=0 tok_in=7,168,035 tok_out=3,725,210 cost=$1.0233
+  5,300/11,991 ok=5,098 bad=202 2.07/s eta=54m calls=5300 fail=0 tok_in=7,305,148 tok_out=3,798,132 cost=$1.0431
+  5,400/11,991 ok=5,195 bad=205 2.08/s eta=53m calls=5400 fail=0 tok_in=7,439,928 tok_out=3,865,457 cost=$1.0620
+  5,500/11,991 ok=5,292 bad=208 2.08/s eta=52m calls=5500 fail=0 tok_in=7,581,695 tok_out=3,938,442 cost=$1.0821
+  5,600/11,991 ok=5,388 bad=212 2.08/s eta=51m calls=5600 fail=0 tok_in=7,717,922 tok_out=4,011,486 cost=$1.1019
+  5,700/11,991 ok=5,486 bad=214 2.07/s eta=51m calls=5700 fail=0 tok_in=7,858,604 tok_out=4,085,131 cost=$1.1220
+  5,800/11,991 ok=5,579 bad=221 2.07/s eta=50m calls=5800 fail=0 tok_in=7,994,893 tok_out=4,160,641 cost=$1.1421
+  5,900/11,991 ok=5,675 bad=225 2.08/s eta=49m calls=5900 fail=0 tok_in=8,132,041 tok_out=4,232,838 cost=$1.1618
+  6,000/11,991 ok=5,770 bad=230 2.09/s eta=48m calls=6000 fail=0 tok_in=8,266,566 tok_out=4,307,726 cost=$1.1817
+  6,100/11,991 ok=5,866 bad=234 2.09/s eta=47m calls=6100 fail=0 tok_in=8,406,146 tok_out=4,376,165 cost=$1.2011
+  6,200/11,991 ok=5,963 bad=237 2.08/s eta=46m calls=6200 fail=0 tok_in=8,543,749 tok_out=4,447,714 cost=$1.2207
+  6,300/11,991 ok=6,053 bad=247 2.08/s eta=46m calls=6300 fail=0 tok_in=8,681,443 tok_out=4,515,046 cost=$1.2398
+  6,400/11,991 ok=6,151 bad=249 2.08/s eta=45m calls=6400 fail=0 tok_in=8,820,416 tok_out=4,585,657 cost=$1.2594
+  6,500/11,991 ok=6,251 bad=249 2.08/s eta=44m calls=6500 fail=0 tok_in=8,959,442 tok_out=4,656,263 cost=$1.2790
+  6,600/11,991 ok=6,340 bad=260 2.08/s eta=43m calls=6600 fail=0 tok_in=9,097,914 tok_out=4,729,989 cost=$1.2991
+  6,700/11,991 ok=6,435 bad=265 2.08/s eta=42m calls=6700 fail=0 tok_in=9,235,178 tok_out=4,802,910 cost=$1.3189
+  6,800/11,991 ok=6,530 bad=270 2.06/s eta=42m calls=6800 fail=0 tok_in=9,368,847 tok_out=4,873,652 cost=$1.3381
+  6,900/11,991 ok=6,624 bad=276 2.06/s eta=41m calls=6900 fail=0 tok_in=9,507,865 tok_out=4,944,522 cost=$1.3578
+  7,000/11,991 ok=6,720 bad=280 2.06/s eta=40m calls=7000 fail=0 tok_in=9,641,520 tok_out=5,015,860 cost=$1.3771
+  7,100/11,991 ok=6,816 bad=284 2.06/s eta=40m calls=7100 fail=0 tok_in=9,778,659 tok_out=5,087,805 cost=$1.3968
+  7,200/11,991 ok=6,913 bad=287 2.07/s eta=39m calls=7200 fail=0 tok_in=9,916,402 tok_out=5,158,775 cost=$1.4164
+  7,300/11,991 ok=7,009 bad=291 2.07/s eta=38m calls=7300 fail=0 tok_in=10,055,850 tok_out=5,230,173 cost=$1.4361
+  7,400/11,991 ok=7,107 bad=293 2.07/s eta=37m calls=7400 fail=0 tok_in=10,191,716 tok_out=5,300,117 cost=$1.4554
+  7,500/11,991 ok=7,203 bad=297 2.07/s eta=36m calls=7500 fail=0 tok_in=10,329,433 tok_out=5,373,535 cost=$1.4754
+  7,600/11,991 ok=7,298 bad=302 2.07/s eta=35m calls=7600 fail=0 tok_in=10,465,564 tok_out=5,444,614 cost=$1.4948
+  7,700/11,991 ok=7,396 bad=304 2.07/s eta=34m calls=7700 fail=0 tok_in=10,602,809 tok_out=5,519,457 cost=$1.5149
+  7,800/11,991 ok=7,493 bad=307 2.08/s eta=34m calls=7800 fail=0 tok_in=10,739,230 tok_out=5,590,248 cost=$1.5344
+  7,900/11,991 ok=7,590 bad=310 2.08/s eta=33m calls=7900 fail=0 tok_in=10,878,556 tok_out=5,658,444 cost=$1.5537
+  8,000/11,991 ok=7,690 bad=310 2.08/s eta=32m calls=8000 fail=0 tok_in=11,017,398 tok_out=5,724,973 cost=$1.5727
+  8,100/11,991 ok=7,786 bad=314 2.08/s eta=31m calls=8100 fail=0 tok_in=11,155,215 tok_out=5,794,894 cost=$1.5922
+  8,200/11,991 ok=7,883 bad=317 2.08/s eta=30m calls=8200 fail=0 tok_in=11,295,226 tok_out=5,863,974 cost=$1.6116
+  8,300/11,991 ok=7,979 bad=321 2.08/s eta=30m calls=8300 fail=0 tok_in=11,434,766 tok_out=5,940,257 cost=$1.6321
+  8,400/11,991 ok=8,075 bad=325 2.08/s eta=29m calls=8400 fail=0 tok_in=11,572,826 tok_out=6,015,026 cost=$1.6522
+  8,500/11,991 ok=8,170 bad=330 2.08/s eta=28m calls=8500 fail=0 tok_in=11,709,195 tok_out=6,086,213 cost=$1.6717
+  8,600/11,991 ok=8,266 bad=334 2.08/s eta=27m calls=8600 fail=0 tok_in=11,845,211 tok_out=6,158,268 cost=$1.6913
+  8,700/11,991 ok=8,364 bad=336 2.08/s eta=26m calls=8700 fail=0 tok_in=11,982,543 tok_out=6,230,467 cost=$1.7110
+  8,800/11,991 ok=8,460 bad=340 2.08/s eta=26m calls=8800 fail=0 tok_in=12,118,946 tok_out=6,300,539 cost=$1.7304
+  8,900/11,991 ok=8,555 bad=345 2.08/s eta=25m calls=8900 fail=0 tok_in=12,256,280 tok_out=6,375,275 cost=$1.7505
+  9,000/11,991 ok=8,651 bad=349 2.07/s eta=24m calls=9000 fail=0 tok_in=12,393,331 tok_out=6,446,537 cost=$1.7700
+  9,100/11,991 ok=8,748 bad=352 2.07/s eta=23m calls=9100 fail=0 tok_in=12,530,129 tok_out=6,512,048 cost=$1.7888
+  9,200/11,991 ok=8,844 bad=356 2.07/s eta=23m calls=9200 fail=0 tok_in=12,669,543 tok_out=6,583,525 cost=$1.8086
+  9,300/11,991 ok=8,942 bad=358 2.07/s eta=22m calls=9300 fail=0 tok_in=12,809,000 tok_out=6,654,550 cost=$1.8283
+  9,400/11,991 ok=9,034 bad=366 2.07/s eta=21m calls=9400 fail=0 tok_in=12,946,205 tok_out=6,726,651 cost=$1.8480
+  9,500/11,991 ok=9,130 bad=370 2.07/s eta=20m calls=9500 fail=0 tok_in=13,085,821 tok_out=6,795,048 cost=$1.8673
+  9,600/11,991 ok=9,227 bad=373 2.07/s eta=19m calls=9600 fail=0 tok_in=13,222,321 tok_out=6,864,764 cost=$1.8866
+  9,700/11,991 ok=9,321 bad=379 2.07/s eta=18m calls=9700 fail=0 tok_in=13,361,097 tok_out=6,942,607 cost=$1.9072
+  9,800/11,991 ok=9,414 bad=386 2.07/s eta=18m calls=9800 fail=0 tok_in=13,501,870 tok_out=7,017,764 cost=$1.9276
+  9,900/11,991 ok=9,512 bad=388 2.07/s eta=17m calls=9900 fail=0 tok_in=13,637,957 tok_out=7,090,498 cost=$1.9473
+  10,000/11,991 ok=9,608 bad=392 2.07/s eta=16m calls=10000 fail=0 tok_in=13,777,564 tok_out=7,163,945 cost=$1.9674
+  10,100/11,991 ok=9,702 bad=398 2.07/s eta=15m calls=10100 fail=0 tok_in=13,919,170 tok_out=7,235,910 cost=$1.9874
+  10,200/11,991 ok=9,798 bad=402 2.07/s eta=14m calls=10200 fail=0 tok_in=14,054,524 tok_out=7,307,218 cost=$2.0068
+  10,300/11,991 ok=9,895 bad=405 2.07/s eta=14m calls=10300 fail=0 tok_in=14,192,618 tok_out=7,380,618 cost=$2.0268
+  10,400/11,991 ok=9,993 bad=407 2.07/s eta=13m calls=10400 fail=0 tok_in=14,332,853 tok_out=7,449,008 cost=$2.0462
+  10,500/11,991 ok=10,087 bad=413 2.07/s eta=12m calls=10500 fail=0 tok_in=14,469,592 tok_out=7,519,658 cost=$2.0656
+  10,600/11,991 ok=10,184 bad=416 2.07/s eta=11m calls=10600 fail=0 tok_in=14,610,141 tok_out=7,594,060 cost=$2.0859
+  10,700/11,991 ok=10,280 bad=420 2.06/s eta=10m calls=10700 fail=0 tok_in=14,750,136 tok_out=7,664,778 cost=$2.1056
+  10,800/11,991 ok=10,379 bad=421 2.06/s eta=10m calls=10800 fail=0 tok_in=14,886,905 tok_out=7,734,111 cost=$2.1249
+  10,900/11,991 ok=10,474 bad=426 2.05/s eta=9m calls=10900 fail=0 tok_in=15,022,719 tok_out=7,806,896 cost=$2.1446
+  11,000/11,991 ok=10,571 bad=429 2.05/s eta=8m calls=11000 fail=0 tok_in=15,160,447 tok_out=7,880,797 cost=$2.1645
+  11,100/11,991 ok=10,665 bad=435 2.05/s eta=7m calls=11100 fail=0 tok_in=15,298,032 tok_out=7,954,977 cost=$2.1846
+  11,200/11,991 ok=10,761 bad=439 2.05/s eta=6m calls=11200 fail=0 tok_in=15,436,563 tok_out=8,028,473 cost=$2.2045
+  11,300/11,991 ok=10,855 bad=445 2.06/s eta=6m calls=11300 fail=0 tok_in=15,572,476 tok_out=8,101,447 cost=$2.2243
+  11,400/11,991 ok=10,952 bad=448 2.06/s eta=5m calls=11400 fail=0 tok_in=15,708,779 tok_out=8,176,474 cost=$2.2443
+  11,500/11,991 ok=11,048 bad=452 2.07/s eta=4m calls=11500 fail=0 tok_in=15,849,112 tok_out=8,248,554 cost=$2.2642
+  11,600/11,991 ok=11,143 bad=457 2.07/s eta=3m calls=11600 fail=0 tok_in=15,984,588 tok_out=8,314,425 cost=$2.2829
+  11,700/11,991 ok=11,239 bad=461 2.08/s eta=2m calls=11700 fail=0 tok_in=16,120,811 tok_out=8,387,013 cost=$2.3026
+  11,800/11,991 ok=11,333 bad=467 2.08/s eta=2m calls=11800 fail=0 tok_in=16,260,865 tok_out=8,460,928 cost=$2.3228
+  11,900/11,991 ok=11,428 bad=472 2.08/s eta=1m calls=11900 fail=0 tok_in=16,397,713 tok_out=8,532,098 cost=$2.3423
+[pass 1] calls=11991 fail=0 tok_in=16,522,124 tok_out=8,607,097 cost=$2.3615 state={'ok': 11518, 'unparsed': 381, 'too_short': 0, 'bad_alternation': 92}
+[pass 2/5] 473 pending (11,527/12,000 done)
+  100/473 ok=11,609 bad=482 0.02/s eta=361m calls=12091 fail=0 tok_in=16,660,557 tok_out=8,683,791 cost=$2.3820
+  200/473 ok=11,703 bad=488 0.03/s eta=133m calls=12191 fail=0 tok_in=16,804,559 tok_out=8,762,616 cost=$2.4031
+  300/473 ok=11,799 bad=492 0.05/s eta=57m calls=12291 fail=0 tok_in=16,941,402 tok_out=8,841,772 cost=$2.4237
+  400/473 ok=11,890 bad=501 0.07/s eta=18m calls=12391 fail=0 tok_in=17,083,370 tok_out=8,928,309 cost=$2.4458
+[pass 2] calls=12464 fail=0 tok_in=17,184,825 tok_out=8,986,765 cost=$2.4611 state={'ok': 11956, 'unparsed': 410, 'too_short': 0, 'bad_alternation': 98}
+[pass 3/5] 35 pending (11,965/12,000 done)
+[pass 3] calls=12499 fail=0 tok_in=17,236,023 tok_out=9,012,748 cost=$2.4683 state={'ok': 11984, 'unparsed': 417, 'too_short': 0, 'bad_alternation': 98}
+[pass 4/5] 7 pending (11,993/12,000 done)
+[pass 4] calls=12506 fail=0 tok_in=17,246,003 tok_out=9,016,751 cost=$2.4696 state={'ok': 11989, 'unparsed': 419, 'too_short': 0, 'bad_alternation': 98}
+[pass 5/5] 2 pending (11,998/12,000 done)
+[pass 5] calls=12508 fail=0 tok_in=17,248,611 tok_out=9,017,546 cost=$2.4699 state={'ok': 11991, 'unparsed': 419, 'too_short': 0, 'bad_alternation': 98}
+
+FINISHED in 100.2m | generated=12,000/12,000 | missing=0 | calls=12508 fail=0 tok_in=17,248,611 tok_out=9,017,546 cost=$2.4699

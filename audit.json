@@ -1,0 +1,33 @@
+{
+  "conversations": 10849,
+  "numeric_grounding": {
+    "numbers_quoted": 20287,
+    "matched_record": 19709,
+    "grounding_rate": 0.9715,
+    "conversations_with_any_unmatched": 391
+  },
+  "undetected_class_mentions": {
+    "negated_correct": {
+      "Microaneurysm": 499,
+      "Fovea": 266,
+      "Disc": 178,
+      "Artefact": 122
+    },
+    "unnegated_possible_hallucination": {
+      "Disc": 126,
+      "Fovea": 123,
+      "Artefact": 92,
+      "Microaneurysm": 86,
+      "IRMA": 1,
+      "Atrophy": 1
+    }
+  },
+  "non_lesion_framed_as_lesion": 87,
+  "safety_refusal": {
+    "conversations": 1793,
+    "contained_explicit_refusal": 1593,
+    "rate": 0.8885
+  },
+  "distinct_opening_turns": 10849,
+  "opening_diversity": 1.0
+}

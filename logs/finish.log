@@ -1,0 +1,68 @@
+[finish] waiting on generation pid=125563
+[finish] generation ended at 2026-08-18T23:14:41+07:00
+[finish] raw records: 12000
+{
+  "total_raw": 12000,
+  "kept": 10849,
+  "rejected": 1151,
+  "keep_rate": 0.9041,
+  "reasons": {
+    "duplicate_opening": 683,
+    "no_clinician_referral": 314,
+    "assistant_too_short": 85,
+    "language_mismatch_id": 43,
+    "diagnostic_language": 22,
+    "meta_leak": 2,
+    "truncated_final_turn": 2
+  }
+}
+
+wrote 10,849 records -> /home/pandora/Fundusnap/models/data/processed/clean.jsonl
+train: 10,201 -> /home/pandora/Fundusnap/models/data/processed/train.jsonl
+  val: 324 -> /home/pandora/Fundusnap/models/data/processed/val.jsonl
+ test: 324 -> /home/pandora/Fundusnap/models/data/processed/test.jsonl
+
+stats -> /home/pandora/Fundusnap/models/data/processed/stats.json
+{
+  "conversations": 10849,
+  "assistant_turns": 39288,
+  "mean_assistant_words": 77.2,
+  "mean_turns_per_conversation": 3.62,
+  "by_category": {
+    "result_explanation": 4574,
+    "safety_refusal": 1793,
+    "detector_literacy": 1769,
+    "general_knowledge": 1570,
+    "adversarial_oos": 1143
+  },
+  "by_language": {
+    "id": 5118,
+    "en": 3177,
+    "id_codeswitch": 2554
+  },
+  "by_grade": {
+    "0": 2178,
+    "1": 2218,
+    "2": 2285,
+    "3": 1680,
+    "4": 1516,
+    "5": 972
+  },
+  "by_profile": {
+    "normal": 6466,
+    "landmarks_only": 1217,
+    "poor_quality": 965,
+    "empty_detections": 796,
+    "low_confidence": 742,
+    "disagreement": 663
+  },
+  "by_persona": {
+    "anxious_patient": 1019,
+    "pregnant_patient": 982,
+    "skeptical_patient": 943,
+    "rural_patient_limited_access": 941,
+    "long_term_diabetic": 937,
+    "family_caregiver": 937,
+    "community_health_wor
+wrote /home/pandora/Fundusnap/models/data/processed/DATASET_CARD.md
+[finish] PIPELINE COMPLETE at 2026-08-18T23:15:00+07:00

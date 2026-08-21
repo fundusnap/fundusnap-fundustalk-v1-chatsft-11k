@@ -1,0 +1,199 @@
+{
+  "teacher_model": "microsoft/phi-4",
+  "student_model": "microsoft/MediPhi-Instruct",
+  "total_conversations": 10849,
+  "splits": {
+    "train": {
+      "conversations": 10201,
+      "assistant_turns": 36930,
+      "mean_assistant_words": 77.2,
+      "mean_turns_per_conversation": 3.62,
+      "by_category": {
+        "result_explanation": 4300,
+        "safety_refusal": 1687,
+        "detector_literacy": 1663,
+        "general_knowledge": 1476,
+        "adversarial_oos": 1075
+      },
+      "by_language": {
+        "id": 4811,
+        "en": 2989,
+        "id_codeswitch": 2401
+      },
+      "by_grade": {
+        "0": 2054,
+        "1": 2063,
+        "2": 2151,
+        "3": 1577,
+        "4": 1438,
+        "5": 918
+      },
+      "by_profile": {
+        "normal": 6067,
+        "landmarks_only": 1140,
+        "poor_quality": 907,
+        "empty_detections": 763,
+        "low_confidence": 695,
+        "disagreement": 629
+      },
+      "by_persona": {
+        "anxious_patient": 953,
+        "pregnant_patient": 916,
+        "skeptical_patient": 888,
+        "long_term_diabetic": 887,
+        "rural_patient_limited_access": 882,
+        "family_caregiver": 879,
+        "community_health_worker": 863,
+        "low_literacy_patient": 838,
+        "curious_student": 780,
+        "newly_diagnosed_patient": 779,
+        "primary_care_nurse": 778,
+        "general_practitioner": 758
+      }
+    },
+    "val": {
+      "conversations": 324,
+      "assistant_turns": 1192,
+      "mean_assistant_words": 74.9,
+      "mean_turns_per_conversation": 3.68,
+      "by_category": {
+        "result_explanation": 137,
+        "detector_literacy": 53,
+        "safety_refusal": 53,
+        "general_knowledge": 47,
+        "adversarial_oos": 34
+      },
+      "by_language": {
+        "id": 145,
+        "en": 94,
+        "id_codeswitch": 85
+      },
+      "by_grade": {
+        "0": 63,
+        "1": 70,
+        "2": 67,
+        "3": 54,
+        "4": 44,
+        "5": 26
+      },
+      "by_profile": {
+        "normal": 199,
+        "landmarks_only": 45,
+        "poor_quality": 26,
+        "low_confidence": 25,
+        "empty_detections": 16,
+        "disagreement": 13
+      },
+      "by_persona": {
+        "anxious_patient": 40,
+        "pregnant_patient": 36,
+        "rural_patient_limited_access": 31,
+        "community_health_worker": 31,
+        "general_practitioner": 29,
+        "newly_diagnosed_patient": 26,
+        "curious_student": 25,
+        "long_term_diabetic": 23,
+        "primary_care_nurse": 23,
+        "low_literacy_patient": 22,
+        "family_caregiver": 20,
+        "skeptical_patient": 18
+      }
+    },
+    "test": {
+      "conversations": 324,
+      "assistant_turns": 1166,
+      "mean_assistant_words": 78.3,
+      "mean_turns_per_conversation": 3.6,
+      "by_category": {
+        "result_explanation": 137,
+        "safety_refusal": 53,
+        "detector_literacy": 53,
+        "general_knowledge": 47,
+        "adversarial_oos": 34
+      },
+      "by_language": {
+        "id": 162,
+        "en": 94,
+        "id_codeswitch": 68
+      },
+      "by_grade": {
+        "0": 61,
+        "1": 85,
+        "2": 67,
+        "3": 49,
+        "4": 34,
+        "5": 28
+      },
+      "by_profile": {
+        "normal": 200,
+        "poor_quality": 32,
+        "landmarks_only": 32,
+        "low_confidence": 22,
+        "disagreement": 21,
+        "empty_detections": 17
+      },
+      "by_persona": {
+        "family_caregiver": 38,
+        "skeptical_patient": 37,
+        "newly_diagnosed_patient": 34,
+        "curious_student": 30,
+        "pregnant_patient": 30,
+        "rural_patient_limited_access": 28,
+        "long_term_diabetic": 27,
+        "community_health_worker": 26,
+        "anxious_patient": 26,
+        "general_practitioner": 19,
+        "low_literacy_patient": 18,
+        "primary_care_nurse": 11
+      }
+    }
+  },
+  "overall": {
+    "conversations": 10849,
+    "assistant_turns": 39288,
+    "mean_assistant_words": 77.2,
+    "mean_turns_per_conversation": 3.62,
+    "by_category": {
+      "result_explanation": 4574,
+      "safety_refusal": 1793,
+      "detector_literacy": 1769,
+      "general_knowledge": 1570,
+      "adversarial_oos": 1143
+    },
+    "by_language": {
+      "id": 5118,
+      "en": 3177,
+      "id_codeswitch": 2554
+    },
+    "by_grade": {
+      "0": 2178,
+      "1": 2218,
+      "2": 2285,
+      "3": 1680,
+      "4": 1516,
+      "5": 972
+    },
+    "by_profile": {
+      "normal": 6466,
+      "landmarks_only": 1217,
+      "poor_quality": 965,
+      "empty_detections": 796,
+      "low_confidence": 742,
+      "disagreement": 663
+    },
+    "by_persona": {
+      "anxious_patient": 1019,
+      "pregnant_patient": 982,
+      "skeptical_patient": 943,
+      "rural_patient_limited_access": 941,
+      "long_term_diabetic": 937,
+      "family_caregiver": 937,
+      "community_health_worker": 920,
+      "low_literacy_patient": 878,
+      "newly_diagnosed_patient": 839,
+      "curious_student": 835,
+      "primary_care_nurse": 812,
+      "general_practitioner": 806
+    }
+  }
+}

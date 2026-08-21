@@ -1,0 +1,15 @@
+{
+  "total_raw": 12000,
+  "kept": 10849,
+  "rejected": 1151,
+  "keep_rate": 0.9041,
+  "reasons": {
+    "duplicate_opening": 683,
+    "no_clinician_referral": 314,
+    "assistant_too_short": 85,
+    "language_mismatch_id": 43,
+    "diagnostic_language": 22,
+    "meta_leak": 2,
+    "truncated_final_turn": 2
+  }
+}
