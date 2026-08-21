@@ -46,18 +46,67 @@ configs:
     path: scenarios.jsonl
 ---
 
+<div align="center">
+  <table border="1">
+    <tr>
+      <td align="center" style="padding: 20px;">
+        <h3>📢 Domain & Email Migration Notice</h3>
+        <p>From <b>May 30th, 2026</b>, Fundusnap will transition to new domains as <code>fundusnap.com</code> will not be renewed:</p>
+        <p>🌐 <b>Website:</b> <a href="https://fundusnap.faizath.com">fundusnap.faizath.com</a> (formerly <i>fundusnap.com</i>)<br>
+        ⚙️ <b>API:</b> <a href="https://fundusnap-api.faizath.com">fundusnap-api.faizath.com</a> (formerly <i>api.fundusnap.com</i>)<br>
+        📧 <b>Email:</b> <a href="mailto:contact@fundusnap.faizath.com">contact@fundusnap.faizath.com</a> (formerly <i>contact@fundusnap.com</i>)<br>
+        🛰️ <b>CDN:</b> <a>fundusnap-cdn.faizath.com</a> (formerly <i>cdn.fundusnap.com</i>)<br>
+        📈 <b>Status Pages:</b> <a href="https://status.faizath.com/status/fundusnap">https://status.faizath.com/status/fundusnap</a> (formerly <i>status.fundusnap.com</i>)
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <img src="assets/logo.png" alt="Fundusnap" width="420"/>
+</p>
+
+<p align="center">
+  <b>Synthetic multi-turn consultations that teach a model to explain a diabetic retinopathy screening result — never to diagnose it.</b>
+</p>
+
+<p align="center">
+  🤗 <a href="https://huggingface.co/datasets/fundusnap/fundusnap-fundustalk-v1-chatsft-11k">Hugging Face</a> &nbsp;•&nbsp;
+  🐙 <a href="https://github.com/fundusnap/fundusnap-fundustalk-v1-chatsft-11k">GitHub</a>
+</p>
+
+<p align="center">
+  <img alt="Task: text generation" src="https://img.shields.io/badge/task-text--generation-5B9BD5"/>
+  <img alt="Conversations: 10,849" src="https://img.shields.io/badge/conversations-10%2C849-5B9BD5"/>
+  <img alt="Assistant turns: 39,288" src="https://img.shields.io/badge/assistant%20turns-39%2C288-5B9BD5"/>
+  <img alt="Teacher: phi-4" src="https://img.shields.io/badge/teacher-phi--4-5B9BD5"/>
+  <img alt="Languages: id, en" src="https://img.shields.io/badge/lang-id%20%7C%20en-5B9BD5"/>
+  <img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-5B9BD5"/>
+</p>
+
 # FundusTalk v1 — Diabetic Retinopathy Chat SFT (11k)
 
 Synthetic multi-turn consultations for fine-tuning [`microsoft/MediPhi-Instruct`](https://huggingface.co/microsoft/MediPhi-Instruct)
 as **FundusAI**, the in-app assistant that explains diabetic-retinopathy screening results in the
 [Fundusnap](https://fundusnap.faizath.com) app.
 
-Distilled from [`microsoft/phi-4`](https://huggingface.co/microsoft/phi-4) via OpenRouter.
+Distilled from [`microsoft/phi-4`](https://huggingface.co/microsoft/phi-4) via OpenRouter. The model trained on it is
+[`fundusnap-v1-resultexp-clm-mediphi-3.8b-adapter`](https://huggingface.co/fundusnap/fundusnap-v1-resultexp-clm-mediphi-3.8b-adapter).
 
-> ⚠️ **Synthetic data. Not a medical device.**
-> No real patient data, images, or records were used — every prediction record is procedurally
-> generated. Models trained on this dataset carry no regulatory clearance and must never be the sole
-> basis for diagnosis, referral, or treatment.
+## ⚠️ Intended use — not for clinical use
+
+**Synthetic data. Not a medical device.** No real patient data, images, or records were used — every
+prediction record is procedurally generated. Models trained on this dataset carry no regulatory
+clearance and must never be the sole basis for diagnosis, referral, or treatment.
+
+**In scope.** Fine-tuning a small assistant to explain DR screening output to patients and
+health workers in Indonesian and English; research on grounding, refusal behaviour, and
+code-switching in medical dialogue; benchmarking safety behaviour on the `test` split.
+
+**Out of scope.** Any clinical decision-making. Training a model to grade severity or detect lesions
+— this dataset contains no images. Deployment without a clinician in the loop. Any commercial use
+(see [Provenance and licensing](#provenance-and-licensing)).
 
 ## At a glance
 
@@ -273,16 +322,6 @@ Taken from the Fundusnap model cards and enforced in the teacher prompt:
 5. An empty findings list means "nothing was detected" — the detector's recall is ≈0.53, and it is
    weakest on the smallest, earliest lesions.
 6. The assistant explains; it never diagnoses, and always routes to a clinician.
-
-## Intended use
-
-**In scope.** Fine-tuning a small assistant to explain DR screening output to patients and
-health workers in Indonesian and English; research on grounding, refusal behaviour, and
-code-switching in medical dialogue; benchmarking safety behaviour on the `test` split.
-
-**Out of scope.** Any clinical decision-making. Training a model to grade severity or detect lesions
-— this dataset contains no images. Deployment without a clinician in the loop. Any commercial use
-(see licensing).
 
 ## Provenance and licensing
 
